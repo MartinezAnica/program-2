@@ -3,13 +3,16 @@ using namespace std;
 
 int main() {
     int number;
+// Take input from the user
     cout << "Enter an integer: ";
     cin >> number;
+
+    // Check if the number is even or odd
     if (number % 2 == 0)
         cout << "The number is even." << endl;
     else
         cout << "The number is odd." << endl;
-    
+    // Check if the number is positive, negative, or zero
     if (number > 0)
         cout << "The number is positive." << endl;
     else if (number < 0)
